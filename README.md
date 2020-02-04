@@ -1,11 +1,11 @@
 # B-plus-Tree_initialization
-ce projet consiste à faire un chargement initial d’un B+arbre (à partir d’un fichier TableauOrdonnéFixe/ListeOF) par deux méthodes, on va établir une comparaison entre les performances de chacune .
-Les deux méthodes concernées sont : 
+this project is about loading data into a B+tree (from a Fixed Ordered Table/List file) using two methods, then a performances comparison is established.
+The two methods are : 
 1.	Bulk loading.
-2.	Insertion standard.
-Il s’agit de B+arbre d’ordre 127 pour l’index et 253 valeurs peuvent être insérées dans les feuilles. Dans notre étude, on prend en considération les grandeurs suivantes : 
--Temps d’exécution .
--Espace occupé par le B+arbre .
--Les accès disque .
--Taux de chargement .
--Profondeur de l’arbre .
+2.	Standard insertion.
+We consider a 127 order B+ tree, 253 values can be inserted into the leaves. In our study, the following quantities are taken into consideration : 
+-Execution time .
+-Space occupied by the B+tree .
+-Disk accesses .
+-Loading rate .
+-Tree depth .
